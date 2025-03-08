@@ -22,8 +22,9 @@ sudo pacman -S pkg-config base-devel gettext
 ## デバッグモードでの実行
 
 開発時にデバッグモードで kpm-rs を実行するには、以下のコマンドを実行します：
-
+```sh
 cargo run
+```
 
 ## 最適化されたビルド
 
