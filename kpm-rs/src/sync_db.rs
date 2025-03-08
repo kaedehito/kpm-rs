@@ -3,7 +3,7 @@ use tr::tr;
 
 
 pub fn sync_db(){
-    let Ok(alpm) = Alpm::new("/", "/var/lib/pacman") else{
+    let Ok(alpm) = Alpm::new(".", "/var/lib/pacman") else{
         eprintln!("{}", tr!("Failed to initialize ALPM"));
         std::process::exit(1);
     };
