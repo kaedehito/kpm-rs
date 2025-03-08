@@ -1,9 +1,5 @@
 //! # kpm-rs - Krypton Package Manager written in Rust
 //! 
-//! `main.rs` は kpm-rs のエントリーポイントです。
-//! 
-//! ## ライセンス
-//! 
 //! Copyright © 2025 小笠原 楓人
 //! 
 //! This program is free software: you can redistribute it and/or modify  
